@@ -1,5 +1,14 @@
-.header {
+.header,
+.main_header {
   font-family: "Raleway", sans-serif;
+}
+
+.top {
+  margin-top: 50px;
+}
+
+.main_header {
+  text-align: center;
 }
 
 p {
