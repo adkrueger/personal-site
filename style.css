@@ -11,6 +11,6 @@
   text-align: center;
 }
 
-p {
+p, span {
   font-family: "Noto Sans", sans-serif;
 }
