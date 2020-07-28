@@ -31,3 +31,22 @@ span {
 #short_version {
   display: none;
 }
+
+/* mobile users */
+@media screen and (max-width: 480px) {
+  #navbar {
+    overflow: hidden;
+    position: relative;
+  }
+
+  #navbar {
+    transition: 0.5s;
+    display: none;
+  }
+
+  #navbar a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+}
