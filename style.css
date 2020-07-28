@@ -34,14 +34,20 @@ span {
 
 /* mobile users */
 @media screen and (max-width: 480px) {
-  #navbar {
-    overflow: hidden;
-    position: relative;
+  #icon {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    display: block;
+    color: black;
   }
 
   #navbar {
+    overflow: hidden;
+    position: relative;
     transition: 0.5s;
     display: none;
+    text-align: center;
   }
 
   #navbar a {
