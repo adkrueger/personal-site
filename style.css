@@ -15,17 +15,23 @@
   cursor: pointer;
 }
 
-.version_button:hover {
-  font-weight: bold;
-}
-
 p,
 span {
   font-family: "Noto Sans", sans-serif;
 }
 
+#icon {
+  display: none;
+}
+
+#long_button {
+  font-weight: bold;
+}
+
 #navbar a {
   text-decoration: none;
+  user-select: none;
+  color: navy;
 }
 
 #short_version {

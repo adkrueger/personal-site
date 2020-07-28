@@ -20,7 +20,7 @@
   <body>
     <h1 class="main_header top">Aaron Krueger</h1>
     <h3 class="main_header">
-      Computer science student in the greater Boston area
+      Computer science student in the Greater Boston area
     </h3>
 
     <div id="navbar">
@@ -37,6 +37,10 @@
       <i class="fa fa-bars"></i>
     </a>
 
+    <br />
+    <hr />
+    <br />
+
     <h3 class="header">Welcome to my website!</h3>
     <p>
       My name is Aaron, and I am a 3rd-year student studying computer science at
@@ -45,16 +49,22 @@
     </p>
     <br />
 
-    <span class="version_button" onclick="displaySection(true);"
+    <h4 class="header">About me</h4>
+    <span
+      id="long_button"
+      class="version_button"
+      onclick="displaySection(true);"
       >Long Version</span
     >
     <span>&emsp;</span>
-    <span class="version_button" onclick="displaySection(false);"
+    <span
+      id="short_button"
+      class="version_button"
+      onclick="displaySection(false);"
       >Short(ish) Version</span
     >
 
     <div id="long_version">
-      <h4 class="header">About me (Long Version)</h4>
       <p>
         Outside of school, I like playing basketball, cooking, playing video
         games, and of course coding in my free time. I also work at
@@ -83,7 +93,6 @@
       </p>
     </div>
     <div id="short_version">
-      <h4 class="header">About me (Short Version)</h4>
       <p>
         Outside of school, I cook, play sports, and work at theCoderSchool in
         Sudbury, MA, where I teach kids how to code.
