@@ -3,14 +3,27 @@
   font-family: "Raleway", sans-serif;
 }
 
-.top {
-  margin-top: 50px;
-}
-
 .main_header {
   text-align: center;
 }
 
-p, span {
+.top {
+  margin-top: 50px;
+}
+
+.version_button {
+  cursor: pointer;
+}
+
+.version_button:hover {
+  font-weight: bold;
+}
+
+p,
+span {
   font-family: "Noto Sans", sans-serif;
+}
+
+#short_version {
+  display: none;
 }
