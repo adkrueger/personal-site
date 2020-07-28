@@ -24,6 +24,10 @@ span {
   font-family: "Noto Sans", sans-serif;
 }
 
+#navbar a {
+  text-decoration: none;
+}
+
 #short_version {
   display: none;
 }
