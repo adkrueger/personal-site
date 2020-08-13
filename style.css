@@ -15,6 +15,10 @@ body {
   text-align: center;
 }
 
+.spacer {
+  display: none;
+}
+
 .top {
   margin-top: 50px;
 }
@@ -91,5 +95,10 @@ span {
     text-decoration: none;
     display: block;
     text-align: center;
+  }
+
+  .spacer {
+    display: block;
+    height: 30px;
   }
 }
