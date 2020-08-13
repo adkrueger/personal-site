@@ -40,13 +40,34 @@ span {
   display: none;
 }
 
+#intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+#intro .cell1 {
+  width: 55%;
+}
+
+#intro .cell2 {
+  display: flex;
+  width: 35%;
+  align-items: center;
+}
+
+#intro .cell2 img {
+  width: 99%;
+  border: 2px solid #000f73;
+  border-radius: 15px;
+}
+
 #long_button {
   font-weight: bold;
 }
 
 #long_button,
 #short_button {
-  padding: 5px;
+  padding: 5px 20px;
   color: #000f73;
 }
 
@@ -65,7 +86,7 @@ span {
 }
 
 .version_button {
-  border: 5px solid #000f73;
+  border: 3px solid #000f73;
   border-radius: 25px;
 }
 
