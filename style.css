@@ -1,3 +1,11 @@
+html {
+  background-color: #f0f9ff;
+}
+
+body {
+  margin: 0 20%;
+}
+
 .header,
 .main_header {
   font-family: "Raleway", sans-serif;
@@ -20,6 +28,10 @@ span {
   font-family: "Noto Sans", sans-serif;
 }
 
+#buttons_div {
+  margin: 25px 0;
+}
+
 #icon {
   display: none;
 }
@@ -28,18 +40,37 @@ span {
   font-weight: bold;
 }
 
+#long_button,
+#short_button {
+  padding: 5px;
+  color: #000f73;
+}
+
+#navbar {
+  text-align: center;
+}
+
 #navbar a {
   text-decoration: none;
   user-select: none;
-  color: navy;
+  color: #000f73;
 }
 
 #short_version {
   display: none;
 }
 
+.version_button {
+  border: 5px solid #000f73;
+  border-radius: 25px;
+}
+
 /* mobile users */
 @media screen and (max-width: 480px) {
+  body {
+    margin: 0 15%;
+  }
+
   #icon {
     text-align: center;
     width: 50%;
