@@ -28,7 +28,8 @@ body {
 }
 
 p,
-span {
+span,
+li {
   font-family: "Noto Sans", sans-serif;
 }
 
