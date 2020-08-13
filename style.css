@@ -104,6 +104,17 @@ span {
     color: black;
   }
 
+  #intro {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  #intro .cell1,
+  #intro .cell2 {
+    width: 100%;
+  }
+
   #navbar {
     overflow: hidden;
     position: relative;
