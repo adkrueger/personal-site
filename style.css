@@ -1,9 +1,13 @@
-html {
-  background-color: #f0f9ff;
+a {
+  text-decoration: none;
 }
 
 body {
   margin: 0 20%;
+}
+
+html {
+  background-color: #f0f9ff;
 }
 
 .header,
@@ -13,6 +17,10 @@ body {
 
 .main_header {
   text-align: center;
+}
+
+.social_icon {
+  width: 50px;
 }
 
 .spacer {
@@ -74,6 +82,7 @@ li {
 
 #navbar {
   text-align: center;
+  cursor: default;
 }
 
 #navbar a {
