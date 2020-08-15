@@ -22,6 +22,7 @@ Are you passionate about supporting the development and release of MathWorks pro
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="main.js" type="text/javascript"></script>
   </head>
 
@@ -31,19 +32,13 @@ Are you passionate about supporting the development and release of MathWorks pro
       Computer science student in the Greater Boston area
     </h3>
 
-    <div id="navbar">
-      <span><a href="index.html">home</a>&emsp;&emsp;</span>
-      <span
-        ><a href="https://linkedin.com/in/adkrueger">linkedin</a
-        >&emsp;&emsp;</span
-      >
-      <span><a href="https://github.com/adkrueger">github</a>&emsp;&emsp;</span>
-      <span><a href="contact.html">contact me</a>&emsp;&emsp;</span>
-      <span><a href="resume.html">resume</a>&emsp;&emsp;</span>
-    </div>
-    <a href="javascript:void(0);" id="icon" onclick="dropDown()">
-      <i class="fa fa-bars"></i>
-    </a>
+    <div id="navbar_placeholder"></div>
+    <script>
+      // use JQuery to load the navigation bar without having to copy all the HTML
+      $(function () {
+        $("#navbar_placeholder").load("navbar.html");
+      });
+    </script>
 
     <br />
     <hr />
