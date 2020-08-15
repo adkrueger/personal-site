@@ -11,10 +11,10 @@ function displaySection(isLong) {
 }
 
 function dropDown() {
-  let navbar = document.getElementById("navbar");
-  if (navbar.style.display === "block") {
-    navbar.style.display = "none";
+  let links = document.getElementById("links");
+  if (links.style.display === "block") {
+    links.style.display = "none";
   } else {
-    navbar.style.display = "block";
+    links.style.display = "block";
   }
 }

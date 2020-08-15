@@ -129,8 +129,11 @@ li {
     overflow: hidden;
     position: relative;
     transition: 0.5s;
-    display: none;
     text-align: center;
+  }
+
+  #navbar #links {
+    display: none;
   }
 
   #navbar a {
